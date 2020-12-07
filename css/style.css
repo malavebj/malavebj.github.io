@@ -526,6 +526,11 @@ ul.social-icons li a i {
     width: 38vw;
     opacity: 0.3;
   }
+  .slogan {
+    font-size: 2vw;
+    max-width: 100vw;
+    margin: 0px 2vw;
+  }
   .container {
     max-width: 100vw;
     width: 100vw;
@@ -570,6 +575,11 @@ ul.social-icons li a i {
   img.change:focus{
     width: 38vw;
     opacity: 0.3;
+  }
+  .slogan {
+    font-size: 2vw;
+    max-width: 100vw;
+    margin: 0px 2vw;
   }
   .container {
     max-width: 100vw;
@@ -697,6 +707,11 @@ ul.social-icons li a i {
     width: 38vw;
     opacity: 0.3;
   }
+  .slogan {
+    font-size: 2vw;
+    max-width: 100vw;
+    margin: 0px 2vw;
+  }
   .container {
     max-width: 100vw;
     width: 100vw;
@@ -760,6 +775,11 @@ ul.social-icons li a i {
   img.change:focus{
     width: 38vw;
     opacity: 0.3;
+  }
+  .slogan {
+    font-size: 2vw;
+    max-width: 100vw;
+    margin: 0px 2vw;
   }
   .container {
     max-width: 1400px;
