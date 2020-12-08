@@ -509,15 +509,6 @@ ul.social-icons li a i {
 }
 /* Fin Implementación del Fade en showSlide Carousel */
 
-/* Extra small devices (phones, 600px and down) */
-/*@media only screen and (max-width: 600px) {...}*/
-
-/* Small devices (portrait tablets and large phones, 600px and up) */
-/*@media only screen and (min-width: 600px) {...}*/
-
-/* Medium devices (landscape tablets, 768px and up) */
-/*@media only screen and (min-width: 768px) {...}*/
-
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
   #tour {
@@ -1215,162 +1206,64 @@ ul.social-icons li a i {
 }
 
 /* phone */
-@media only screen and (max-width: 780px) {
-  #tour {
+@media only screen and (max-width: 992px) {
+   #tour {
     width: 100vw;
-    height: 66vw;
+    height: 75vw;
   }
   #tour .carousel-inner img {
     width: 100vw;
-  }
-  .overPicture{
-    margin-top: -60vw;
-    margin-left: 5vw;
-    padding: 20px;
-    width: 90vw;
-  }
-  h1{
-    font-size: 3.5vh;
-  }
-  .btn-group-lg>.btn, .btn-lg {
-      padding: 8px 14px;
-      font-size: 20px;
-  }
-  .jumbotron {
-    margin-bottom: 1em;
-  }
-  .jumbotron p{
-    font-size: 20px;
-    margin-bottom: 0px;
-    line-height: initial;
-  }
-  .features-2 img {
-    max-width: 48vw;
-    width: 43vw;
-    margin: 0px auto;
-    vertical-align: bottom;
-  }
-  .slogan {
-    font-size: 3vw;
-    margin-bottom: 5vw;
-    max-width: 100vw;
-    margin: 0px 2vw;
-  }
-  img.change:hover,
-  img.change:focus{
-    width: 45vw;
-    opacity: 0.3;
-  }
-  .container {
-    max-width: 100vw;
-    width: 100vw;
-    padding: 0px;
-  }
-  section {
-    max-width: 100vw;
-    width: 100vw;
-  }
-  footer {
-    max-width: 100vw;
-    width: 100vw;
-  }
-  .headStyle{
-    height: 60px;
-  } 
-  .navbar-header img{
-    width: 240px;
-  }
-  .navbar-header{
-    width: 60vw;
-  }
-  .navbar-custom ul li a {
-    font-size: 10px;
-    margin-bottom: 10px;
-  }
-  .imgContainer{
-    margin:6vh auto;
-    width:25vw;
-    height:25vw;
-   
-  }
-  .imgContainer img{
-    width: 20vh;
-  }
-  .positionMV img {
-    top: 0px;
-    left: -10px;
-  }
-  .positionEstructura img{
-    top:2vh;
-    left:-2vw;
-  }
-  .change3{
-    width: 150px;
-  }
-  .usMiddleTitle {
-    font-size: 2vh;
-    margin-left: -19vh;
-    margin-bottom: -10vh;
-    margin-top: 10vh;
-  }
-  .usUpTitle {
-    font-size: 4vh;
-    margin-left: -17vh;
-    margin-bottom: -10vh;
-    margin-top: 9vh;
-  }
-  .usDownTitle {
-    font-size: 2vh;
-    margin-left: -17vh;
-    margin-bottom: -10vh;
-    margin-top: 9vh;
-  }
-  .footer .navbar-nav li a {
-    font-size: 2vw;
-  }
-}
+    height: 75vw;
 
-/* phone */
-@media only screen and (max-width: 560px) {
-  #tour {
-    width: 100vw;
-    height: 37vh;
-  }
-  #tour .carousel-inner img {
-    width: 100vw;
   }
   .overPicture{
-    margin-top: -35vh;
-    margin-left: 15vw;
+    margin-top: -40vh;
+    margin-left: 10vw;
     padding: 1.5vh;
-    width: 70VW;
+    width: 80VW;
+  }
+  .jumbotron h1{
+    font-size: 7vw;
   }
   h1{
-    font-size: 3.5vh;
+    font-size: 6.5vw;
+  }
+  h3{
+   font-size: 4vw; 
+  }
+  .slogan {
+    font-size: 4vw;
+    margin-bottom: 5vw;
+    max-width: 96vw;
+    margin: 0px 2vw;
+    line-height: 4vw;
+  }
+  .cardDescription{
+    font-size: 3vw;
+    padding: 0px 2vw;
+    line-height: 4vw;
+    margin-bottom: 5vw;
+  }
+  .pt80{
+    padding-top: 10vw;
   }
   .btn-group-lg>.btn, .btn-lg {
-      padding: 8px 14px;
-      font-size: 14px;
+      padding: 1.5vw 2.5vw;
+      font-size: 4vw;
   }
   .jumbotron {
     margin-bottom: 1em;
   }
   .jumbotron p{
-    font-size: 1.3vh;
+    font-size: 1.5vh;
     margin-bottom: 0px;
     line-height: initial;
   }
   .features-2 img {
-    max-width: 60vw;
-    width: 55vw;
+    max-width: 50vw;
+    width: 40vw;
     margin: 0px auto;
     vertical-align: bottom;
-  }
-  .slogan {
-    font-size: 14px;
-    margin-bottom: 45px;
-    max-width: 580px;
-    margin: 0px 5px;
   }
   img.change:hover,
   img.change:focus{
@@ -1386,12 +1279,170 @@ ul.social-icons li a i {
     max-width: 100vw;
     width: 100vw;
   }
+  .headStyle{
+    height: 12vw;
+  } 
+  .navbar-header img{
+    width: 50vw;
+  }
+  .navbar-header{
+    width: 50vw;
+  }
+  .navbar-custom ul li a {
+    font-size: 1.8vw;
+    margin-bottom: 10px;
+  }
+  .imgContainer{
+    margin:10vw auto;
+    width:50vw;
+    height:50vw;
+  }
+  .imgContainer img{
+    width: 22vh;
+  }
+  .positionMV img {
+    top: -8vw;
+    left: -12vw;
+    width: 75vw;
+  }
+  .positionLogo img{
+    top:6vh;
+    left:0vw;
+    width: 50vw;
+  }
+  .positionEstructura img{
+    top:2.5vh;
+    left:-2vw;
+    width: 50vw;
+  }
+  .positionTelf img{
+    left:-2vw; 
+    width: 54vw;
+  }
+  .change3{
+    width: 45vw;
+    margin-top: 3vw;
+  }
+  .usMiddleTitle {
+    font-size: 5vw;
+    margin-left: -41vw;
+    margin-bottom: -19vw;
+    margin-top: 18vw;
+    color: grey;
+  }
+  .usUpTitle {
+    font-size: 8vw;
+    margin-left: -58vw;
+    margin-bottom: -28vw;
+    margin-top: 27vw;
+    color: grey;
+  }
+  .usDownTitle {
+    font-size: 5vw;
+    margin-left: -41vw;
+    margin-bottom: -19vw;
+    margin-top: 24vw;
+    color: grey;
+    }
   footer {
     max-width: 100vw;
     width: 100vw;
   }
+  .footer .navbar-nav li a {
+    font-size: 3vw;
+    padding: 2vh 5vh;
+  }
+  .modal p{
+    font-size: 3vw;
+    line-height: 4vw;
+    padding: 1vw;
+  }
+  .modal h3{
+    font-size: 4vw;
+  }
+  .modal-dialog{
+    margin: 5vw 5vw;
+    width: 90vw;
+    max-width: 90vw;
+  }
+}
+
+/* phone */
+@media only screen and (max-width: 600px) {
+ #tour {
+    width: 100vw;
+    height: 75vw;
+  }
+  #tour .carousel-inner img {
+    width: 100vw;
+    height: 75vw;
+
+  }
+  .overPicture{
+    margin-top: -35vh;
+    margin-left: 10vw;
+    padding: 1.5vh;
+    width: 80VW;
+  }
+  .jumbotron h1{
+    font-size: 7vw;
+  }
+  h1{
+    font-size: 6.5vw;
+  }
+  h3{
+   font-size: 5vw; 
+  }
+  .slogan {
+    font-size: 4vw;
+    margin-bottom: 5vw;
+    max-width: 96vw;
+    margin: 0px 2vw;
+    line-height: 4vw;
+  }
+  .cardDescription{
+    font-size: 3.5vw;
+    padding: 0px 2vw;
+    line-height: 4vw;
+    margin-bottom: 5vw;
+  }
+  .pt80{
+    padding-top: 10vw;
+  }
+  .btn-group-lg>.btn, .btn-lg {
+      padding: 1.5vw 2.5vw;
+      font-size: 4vw;
+  }
+  .jumbotron {
+    margin-bottom: 1em;
+  }
+  .jumbotron p{
+    font-size: 1.5vh;
+    margin-bottom: 0px;
+    line-height: initial;
+  }
+  .features-2 img {
+    max-width: 60vw;
+    width: 55vw;
+    margin: 0px auto;
+    vertical-align: bottom;
+  }
+  img.change:hover,
+  img.change:focus{
+    width: 58vw;
+    opacity: 0.3;
+  }
+  .container {
+    max-width: 100vw;
+    width: 100vw;
+    padding: 0px;
+  }
+  section {
+    max-width: 100vw;
+    width: 100vw;
+  }
   .headStyle{
-    height: 60px;
+    height: 15vw;
   } 
   .navbar-header img{
     width: 60vw;
@@ -1404,44 +1455,77 @@ ul.social-icons li a i {
     margin-bottom: 10px;
   }
   .imgContainer{
-    margin:6vh auto;
-    width:140px;
-    height:140px;
+    margin:10vw auto;
+    width:50vw;
+    height:50vw;
   }
   .imgContainer img{
-    width: 20vh;
+    width: 22vh;
   }
   .positionMV img {
-    top: 0px;
-    left: -10px;
+    top: -8vw;
+    left: -12vw;
+    width: 75vw;
+  }
+  .positionLogo img{
+    top:6vh;
+    left:0vw;
+    width: 50vw;
   }
   .positionEstructura img{
-    top:2vh;
+    top:2.5vh;
     left:-2vw;
+    width: 50vw;
+  }
+  .positionTelf img{
+    left:-2vw; 
+    width: 54vw;
   }
   .change3{
-    width: 150px;
+    width: 45vw;
+    margin-top: 3vw;
   }
   .usMiddleTitle {
-    font-size: 2vh;
-    margin-left: -19vh;
-    margin-bottom: -10vh;
-    margin-top: 10vh;
+    font-size: 5vw;
+    margin-left: -41vw;
+    margin-bottom: -19vw;
+    margin-top: 18vw;
+    color: grey;
   }
   .usUpTitle {
-    font-size: 4vh;
-    margin-left: -17vh;
-    margin-bottom: -10vh;
-    margin-top: 9vh;
+    font-size: 8vw;
+    margin-left: -58vw;
+    margin-bottom: -28vw;
+    margin-top: 27vw;
+    color: grey;
   }
   .usDownTitle {
-    font-size: 2vh;
-    margin-left: -17vh;
-    margin-bottom: -10vh;
-    margin-top: 9vh;
+    font-size: 5vw;
+    margin-left: -41vw;
+    margin-bottom: -19vw;
+    margin-top: 24vw;
+    color: grey;
+    }
+  footer {
+    max-width: 100vw;
+    width: 100vw;
   }
   .footer .navbar-nav li a {
-    font-size: 10px;
+    font-size: 3vw;
+    padding: 0.3vh 5vh;
+  }
+  .modal p{
+    font-size: 3vw;
+    line-height: 4vw;
+    padding: 1vw;
+  }
+  .modal h3{
+    font-size: 4vw;
+  }
+  .modal-dialog{
+    margin: 5vw 5vw;
+    width: 90vw;
+    max-width: 90vw;
   }
 }
 
@@ -1449,29 +1533,53 @@ ul.social-icons li a i {
 @media only screen and (max-width: 380px) {
   #tour {
     width: 100vw;
-    height: 37vh;
+    height: 75vw;
   }
   #tour .carousel-inner img {
     width: 100vw;
+    height: 75vw;
+
   }
   .overPicture{
-    margin-top: -35vh;
-    margin-left: 15vw;
+    margin-top: -32vh;
+    margin-left: 10vw;
     padding: 1.5vh;
-    width: 70VW;
+    width: 80VW;
+  }
+  .jumbotron h1{
+    font-size: 7vw;
   }
   h1{
-    font-size: 3.5vh;
+    font-size: 6.5vw;
+  }
+  h3{
+   font-size: 5vw; 
+  }
+  .slogan {
+    font-size: 4vw;
+    margin-bottom: 5vw;
+    max-width: 96vw;
+    margin: 0px 2vw;
+    line-height: 4vw;
+  }
+  .cardDescription{
+    font-size: 3.5vw;
+    padding: 0px 2vw;
+    line-height: 4vw;
+    margin-bottom: 5vw;
+  }
+  .pt80{
+    padding-top: 10vw;
   }
   .btn-group-lg>.btn, .btn-lg {
-      padding: 8px 14px;
-      font-size: 14px;
+      padding: 1.5vw 2.5vw;
+      font-size: 4vw;
   }
   .jumbotron {
     margin-bottom: 1em;
   }
   .jumbotron p{
-    font-size: 1.3vh;
+    font-size: 1.5vh;
     margin-bottom: 0px;
     line-height: initial;
   }
@@ -1480,12 +1588,6 @@ ul.social-icons li a i {
     width: 55vw;
     margin: 0px auto;
     vertical-align: bottom;
-  }
-  .slogan {
-    font-size: 14px;
-    margin-bottom: 45px;
-    max-width: 580px;
-    margin: 0px 5px;
   }
   img.change:hover,
   img.change:focus{
@@ -1501,12 +1603,8 @@ ul.social-icons li a i {
     max-width: 100vw;
     width: 100vw;
   }
-  footer {
-    max-width: 100vw;
-    width: 100vw;
-  }
   .headStyle{
-    height: 55px;
+    height: 15vw;
   } 
   .navbar-header img{
     width: 60vw;
@@ -1519,43 +1617,82 @@ ul.social-icons li a i {
     margin-bottom: 10px;
   }
   .imgContainer{
-    margin:6vh auto;
-    width:140px;
-    height:140px;
-   
+    margin:10vw auto;
+    width:50vw;
+    height:50vw;
   }
   .imgContainer img{
     width: 22vh;
   }
   .positionMV img {
-    top: 2vw;
-    left: 0vw;
+    top: -8vw;
+    left: -12vw;
+    width: 75vw;
+  }
+  .positionLogo img{
+    top:6vh;
+    left:0vw;
+    width: 50vw;
+  }
+  .positionEstructura img{
+    top:2.5vh;
+    left:-2vw;
+    width: 50vw;
+  }
+  .positionTelf img{
+    left:-2vw; 
+    width: 54vw;
   }
   .change3{
-    width: 150px;
+    width: 45vw;
+    margin-top: 3vw;
   }
   .usMiddleTitle {
-    font-size: 2vh;
-    margin-left: -19vh;
-    margin-bottom: -10vh;
-    margin-top: 10vh;
+    font-size: 5vw;
+    margin-left: -41vw;
+    margin-bottom: -19vw;
+    margin-top: 18vw;
+    color: grey;
   }
   .usUpTitle {
-    font-size: 4vh;
-    margin-left: -17vh;
-    margin-bottom: -10vh;
-    margin-top: 9vh;
+    font-size: 8vw;
+    margin-left: -58vw;
+    margin-bottom: -28vw;
+    margin-top: 27vw;
+    color: grey;
   }
   .usDownTitle {
-    font-size: 2vh;
-    margin-left: -17vh;
-    margin-bottom: -10vh;
-    margin-top: 9vh;
+    font-size: 5vw;
+    margin-left: -41vw;
+    margin-bottom: -19vw;
+    margin-top: 24vw;
+    color: grey;
+    }
+  footer {
+    max-width: 100vw;
+    width: 100vw;
   }
   .footer .navbar-nav li a {
-    font-size: 10px;
+    font-size: 3vw;
+    padding: 0.3vh 5vh;
+  }
+  .modal p{
+    font-size: 3vw;
+    line-height: 4vw;
+    padding: 1vw;
+  }
+  .modal h3{
+    font-size: 4vw;
+  }
+  .modal-dialog{
+    margin: 5vw 5vw;
+    width: 90vw;
+    max-width: 90vw;
   }
 }
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/*@media only screen and (min-width: 600px) {...}*/
 
 
 
