@@ -120,11 +120,11 @@ img.change{
   left:-90px;
 }
 .positionLogo img{
-  top:6vh;
+  top:4vw;
   left:0vw;
 }
 .positionEstructura img{
-  top:2.5vh;
+  top:5.5vw;
   left:-1vw;
 }
 .positionTelf img{
@@ -169,7 +169,7 @@ img.change{
 }
 #tour {
   width:  100vw;
-  height:  100vh;
+  height:  100vw;
   position: relative;
   
 }
@@ -244,7 +244,7 @@ img.change{
   background-color: #ffffff;
 }
 .paddingLinks{
-  padding-top: 2vh;
+  padding-top: 2.5vw;
 }
 .content-wrap {
   position: relative;
@@ -387,7 +387,7 @@ img.change{
   position: absolute;
   z-index: 10;
   background-color:rgba(0, 0, 0, 0.6);
-  margin-top: -80vh;
+  margin-top: -80vw;
   margin-left: 20vw;
   padding: 3vh;
   border-radius: 20px;
@@ -513,7 +513,7 @@ ul.social-icons li a i {
 @media only screen and (min-width: 992px) {
   #tour {
     width: 100vw;
-    height: 88vh;
+    height: 66vw;
   }
   #tour .carousel-inner img {
     width: 100vw;
@@ -521,6 +521,12 @@ ul.social-icons li a i {
   }
   .jumbotron {
     margin-bottom: 1em;
+  }
+  .overPicture{
+    margin-top: -60vw;
+    margin-left: 20vw;
+    padding: 2.5vw;
+    width: 60vw;
   }
   .features-2 img {
     max-width: 40vw;
@@ -561,7 +567,7 @@ ul.social-icons li a i {
     padding-right: 3vw;
   }
   .headStyle{
-    height: 12vh;
+    height: 9vw;
   } 
   .navbar-header img{
     width: 35vw;
@@ -577,11 +583,11 @@ ul.social-icons li a i {
     width: 35vw;
   }
   .positionLogo img{
-    top:6vh;
-    left:0vw;
+    top:4vw;
+    left:-2vw;
   }
   .positionEstructura img{
-    top:2.5vh;
+    top:2.5vw;
     left:-1vw;
     width: 20vw;
   }
@@ -608,7 +614,7 @@ ul.social-icons li a i {
     color: grey;
     margin-left: -17vw;
     margin-bottom: -9vw;
-    margin-top: 7vh;
+    margin-top: 7vw;
   }
 }
 
@@ -616,7 +622,7 @@ ul.social-icons li a i {
 @media only screen and (min-width: 1280px) {
   #tour {
     width: 100vw;
-    height: 83vh;
+    height: 66vw;
   }
   #tour .carousel-inner img {
     width: 100vw;
@@ -632,7 +638,7 @@ ul.social-icons li a i {
   .overPicture{
     margin-top: -60vw;
     margin-left: 20vw;
-    padding: 1.5vh;
+    padding: 2vw;
     width: 60vw;
   }
   .features-2 img {
@@ -697,7 +703,7 @@ ul.social-icons li a i {
 @media only screen and (min-width: 1366px) {
   #tour {
     width: 100vw;
-    height: 89vh;
+    height: 66vw;
   }
   #tour .carousel-inner img {
     width: 100vw;
@@ -740,7 +746,7 @@ ul.social-icons li a i {
     width: 100vw;
   }
   .headStyle{
-    height: 122px;
+    height: 8vw;
   } 
   .navbar-header img{
     width: 35vw;
@@ -757,13 +763,13 @@ ul.social-icons li a i {
   @media only screen and (max-height: 920px) {
     #tour {
       width: 100vw;
-      height: 912px;
+      height: 66vw;
     }
     #tour .carousel-inner {
       width: 100vw;
     }
     .headStyle{
-      height: 120px;
+      height: 8vw;
     } 
     .jumbotron {
       margin-bottom: 1em;
@@ -790,7 +796,7 @@ ul.social-icons li a i {
   .overPicture{
     margin-top: -45vw;
     margin-left: 15vw;
-    padding: 1.5vh;
+    padding: 2.5vw;
     width: 50vw;
   }
   img.change:hover,
@@ -813,12 +819,12 @@ ul.social-icons li a i {
     width: 30vw;
   }
   .positionLogo img{
-    top:6vh;
-    left:0vw;
+    top:4vw;
+    left:-1vw;
     width: 17vw;
   }
   .positionEstructura img{
-    top:2.5vh;
+    top:1.5vw;
     left:-1vw;
     width: 16vw;
   }
@@ -852,7 +858,7 @@ ul.social-icons li a i {
     width: 30vw;
   }
   .navbar-custom ul li a {
-    font-size: 24px;
+    font-size: 1.6vw;
   }
   .change3{
     width: 15vw;
@@ -885,7 +891,7 @@ ul.social-icons li a i {
     color: grey;
     margin-left: -13vw;
     margin-bottom: -6vw;
-    margin-top: 9vh;
+    margin-top: 7vw;
   }
 
   @media only screen and (max-height: 920px) {
@@ -926,7 +932,7 @@ ul.social-icons li a i {
       color: grey;
       margin-left: -13vw;
       margin-bottom: -5vw;
-      margin-top: 9vh;
+      margin-top: 7vw;
     }
   }
 }
@@ -947,6 +953,9 @@ ul.social-icons li a i {
   .jumbotron {
     margin-bottom: 1em;
   }
+  .jumbotron h1{
+    font-size: 4vw;
+  }
   .features-2 img {
     max-width: 40vw;
     width: 36vw;
@@ -956,7 +965,7 @@ ul.social-icons li a i {
   .overPicture{
     margin-top: -45vw;
     margin-left: 15vw;
-    padding: 1.5vh;
+    padding: 2.5vw;
     width: 50vw;
   }
   .btn-group-lg>.btn, .btn-lg {
@@ -993,12 +1002,12 @@ ul.social-icons li a i {
     width: 30vw;
   }
   .positionLogo img{
-    top:6vh;
+    top:3vw;
     left:0vw;
     width: 15vw;
   }
   .positionEstructura img{
-    top:2.5vh;
+    top:2vw;
     left:-1vw;
     width: 16vw;
   }
@@ -1059,7 +1068,7 @@ ul.social-icons li a i {
     color: grey;
     margin-left: -13vw;
     margin-bottom: -6vw;
-    margin-top: 9vh;
+    margin-top: 7vw;
   }
   .modal p{
     padding: 1vw;
@@ -1091,7 +1100,7 @@ ul.social-icons li a i {
   .overPicture{
     margin-top: -45vw;
     margin-left: 15vw;
-    padding: 1.5vh;
+    padding: 2.5vw;
     width: 50vw;
   }
   .btn-group-lg>.btn, .btn-lg {
@@ -1131,12 +1140,12 @@ ul.social-icons li a i {
     width: 30vw;
   }
   .positionLogo img{
-    top:6vh;
-    left:0vw;
+    top:3vw;
+    left:1vw;
     width: 15vw;
   }
   .positionEstructura img{
-    top:2.5vh;
+    top:1.5vw;
     left:-1vw;
     width: 16vw;
   }
@@ -1198,7 +1207,7 @@ ul.social-icons li a i {
     color: grey;
     margin-left: -13vw;
     margin-bottom: -6vw;
-    margin-top: 9vh;
+    margin-top: 9vw;
   }
   .modal p{
     padding: 1vw;
@@ -1207,7 +1216,7 @@ ul.social-icons li a i {
 
 /* phone */
 @media only screen and (max-width: 992px) {
-   #tour {
+  #tour {
     width: 100vw;
     height: 75vw;
   }
@@ -1217,9 +1226,9 @@ ul.social-icons li a i {
 
   }
   .overPicture{
-    margin-top: -40vh;
+    margin-top: -60vw;
     margin-left: 10vw;
-    padding: 1.5vh;
+    padding: 2.5vw;
     width: 80VW;
   }
   .jumbotron h1{
@@ -1255,7 +1264,7 @@ ul.social-icons li a i {
     margin-bottom: 1em;
   }
   .jumbotron p{
-    font-size: 1.5vh;
+    font-size: 2vw;
     margin-bottom: 0px;
     line-height: initial;
   }
@@ -1297,22 +1306,19 @@ ul.social-icons li a i {
     width:50vw;
     height:50vw;
   }
-  .imgContainer img{
-    width: 22vh;
-  }
   .positionMV img {
     top: -8vw;
     left: -12vw;
     width: 75vw;
   }
   .positionLogo img{
-    top:6vh;
-    left:0vw;
+    top:10vw;
+    left:-2vw;
     width: 50vw;
   }
   .positionEstructura img{
-    top:2.5vh;
-    left:-2vw;
+    top:5.5vw;
+    left:-1vw;
     width: 50vw;
   }
   .positionTelf img{
@@ -1350,7 +1356,7 @@ ul.social-icons li a i {
   }
   .footer .navbar-nav li a {
     font-size: 3vw;
-    padding: 2vh 5vh;
+    padding: 2vw 5vw;
   }
   .modal p{
     font-size: 3vw;
@@ -1379,9 +1385,9 @@ ul.social-icons li a i {
 
   }
   .overPicture{
-    margin-top: -35vh;
+    margin-top: -66vw;
     margin-left: 10vw;
-    padding: 1.5vh;
+    padding: 2.5vw;
     width: 80VW;
   }
   .jumbotron h1{
@@ -1417,7 +1423,7 @@ ul.social-icons li a i {
     margin-bottom: 1em;
   }
   .jumbotron p{
-    font-size: 1.5vh;
+    font-size: 3vw;
     margin-bottom: 0px;
     line-height: initial;
   }
@@ -1459,21 +1465,18 @@ ul.social-icons li a i {
     width:50vw;
     height:50vw;
   }
-  .imgContainer img{
-    width: 22vh;
-  }
   .positionMV img {
     top: -8vw;
     left: -12vw;
     width: 75vw;
   }
   .positionLogo img{
-    top:6vh;
+    top:9vw;
     left:0vw;
     width: 50vw;
   }
   .positionEstructura img{
-    top:2.5vh;
+    top:5.5vw;
     left:-2vw;
     width: 50vw;
   }
@@ -1512,7 +1515,7 @@ ul.social-icons li a i {
   }
   .footer .navbar-nav li a {
     font-size: 3vw;
-    padding: 0.3vh 5vh;
+    padding: 0.8vw 5vw;
   }
   .modal p{
     font-size: 3vw;
@@ -1541,9 +1544,9 @@ ul.social-icons li a i {
 
   }
   .overPicture{
-    margin-top: -32vh;
+    margin-top: -65vw;
     margin-left: 10vw;
-    padding: 1.5vh;
+    padding: 2.5vw;
     width: 80VW;
   }
   .jumbotron h1{
@@ -1579,7 +1582,7 @@ ul.social-icons li a i {
     margin-bottom: 1em;
   }
   .jumbotron p{
-    font-size: 1.5vh;
+    font-size: 2.5vw;
     margin-bottom: 0px;
     line-height: initial;
   }
@@ -1621,21 +1624,18 @@ ul.social-icons li a i {
     width:50vw;
     height:50vw;
   }
-  .imgContainer img{
-    width: 22vh;
-  }
   .positionMV img {
     top: -8vw;
     left: -12vw;
     width: 75vw;
   }
   .positionLogo img{
-    top:6vh;
+    top:9vw;
     left:0vw;
     width: 50vw;
   }
   .positionEstructura img{
-    top:2.5vh;
+    top:5.5vw;
     left:-2vw;
     width: 50vw;
   }
@@ -1674,7 +1674,7 @@ ul.social-icons li a i {
   }
   .footer .navbar-nav li a {
     font-size: 3vw;
-    padding: 0.3vh 5vh;
+    padding: 0.8vw 5vw;
   }
   .modal p{
     font-size: 3vw;
