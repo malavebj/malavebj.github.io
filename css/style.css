@@ -27,6 +27,11 @@ img.change3:hover,
 img.change3:focus{
   opacity: 0.3;
 }
+img.change{
+  border: 0.5vw solid #fff;
+  border-radius: 20px;
+  padding: 0px;
+}
 .fade{
   transition: opacity 0.5s linear;
 }
@@ -392,6 +397,17 @@ img.change3:focus{
 .jumbotron p{
   color: #fff;
   font-family: helvetica;
+}
+.modal p{
+  font-size: 1.5vw;
+  line-height: 2vw;
+}
+.modal h3{
+  font-size: 2vw;
+}
+.modal-dialog{
+  width: 40vw;
+  max-width: 80vw;
 }
 
 /* Social */
@@ -1054,6 +1070,9 @@ ul.social-icons li a i {
     margin-bottom: -6vw;
     margin-top: 9vh;
   }
+  .modal p{
+    padding: 1vw;
+  }
 }
 @media only screen and (min-width: 5100px) {
   .container {
@@ -1189,6 +1208,9 @@ ul.social-icons li a i {
     margin-left: -13vw;
     margin-bottom: -6vw;
     margin-top: 9vh;
+  }
+  .modal p{
+    padding: 1vw;
   }
 }
 
