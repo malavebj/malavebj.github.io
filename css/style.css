@@ -19,6 +19,17 @@ p {
   font-size: 15px;
   line-height: 24px;
 }
+ul.liSize li{
+  font-size: 1.5vw;
+}
+.goClick{
+  font-size: 1.7vw;
+}
+.goClick:hover,
+.goClick:focus{
+  color: #5bb0ff;
+  font-size: 2vw;
+}
 img.change2:hover,
 img.change2:focus{
   opacity: 0.3;
